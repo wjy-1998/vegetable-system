@@ -1,0 +1,299 @@
+*{
+	padding:0px;
+	margin:0px auto;
+	box-sizing:border-box;
+}
+.container{
+	width:100%;
+	max-width:414px;
+	height:1850px;
+	background:url("../images/b12.jpg");
+	background-size:100% 36%;
+	/* border:1px solid red; */
+}
+.cont{
+	width:100%;
+	height:1850px;
+	float:left;
+	overflow:hidden;
+}
+.top{
+	width:100%;
+	height:2.5%;
+	float:left;
+	padding:2% 4%;
+	background:#4B9321;
+}
+.top_left{
+	width:8%;
+	height:100%;
+	float:left;
+	/* background:pink; */
+}
+.top_left a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.top_left a img{
+	width:80%;
+	height:100%;
+}
+.top_cen{
+	width:90%;
+	height:100%;
+	float:left;
+	/* background:yellow; */
+}
+.top_cen h2{
+	width:100%;
+	height:100%;
+	line-height:170%;
+	text-align:center;
+	font-weight:normal;
+	font-size:20px;
+	font-family:"sans-serif";
+	color:#ffffff;
+}
+.context{
+	width:100%;
+	height:92%;
+	float:left;
+}
+.context_top{
+	width:100%;
+	height:10%;
+	float:left;
+	margin-top:4%;
+	/* background:#4B9321; */
+}
+.context_top form{
+	display:block;
+	width:100%;
+	height:100%;
+	float:left;
+}
+.context_top form ul{
+	width:100%;
+	height:100%;
+	list-style:none;
+}
+.context_top form ul li{
+	width:100%;
+	height:33%;
+	padding:2% 5%;
+	/* border:1px solid; */
+}
+.context_top form ul li select{
+	width:100%;
+	height:100%;
+	padding-left:5%;
+	background:#ffffff;
+	opacity:0.8;
+	border:0px solid;
+	color:#4B9321;
+}
+.context_top form ul li button{
+	float:left;
+	width:100%;
+	height:100%;
+	background:#ffffff;
+	color:#4B9321;
+	border-radius:5px;
+	cursor:pointer;
+	border:0px solid;
+}
+.context_top form ul li a{
+	display:inline-block;
+	float:right;
+	width:25%;
+	height:100%;
+	line-height:40px;
+	text-align:center;
+	font-size:16px;
+	text-decoration:none;
+	color:#4B9321;
+	margin-right:3%;
+	background:yellow;
+	cursor:pointer;
+	border-radius:4px;
+	/* border:1px solid red; */
+}
+#context_box{
+	width:100%;
+	float:left;
+}
+.context_box_list{
+	width:100%;
+	height:28%;
+	float:left;
+	padding:2%;
+	cursor:pointer;
+	border-bottom:1px solid #999999;
+}
+.context_box_list ul{
+	width:100%;
+	height:100%;
+	list-style:none;
+}
+.context_box_list ul li{
+	width:100%;
+	height:28%;
+	float:left;
+	padding:0.3% 5%;
+}
+.context_box_list ul li label{
+	display:inline-block;
+	float:left;
+	width:25%;
+	height:100%;
+	font-size:15px;
+	/* border:1px solid red; */
+}
+.context_box_list ul li span{
+	display:inline-block;
+	float:left;
+	width:75%;
+	height:100%;
+	line-height:21px;
+	font-size:15px;
+	/* border:1px solid blue; */
+}
+#landm,#landmass_id,#landmass_name,#crop_name,#crop_id,#crop_area,#plant_time,#plant_pattern,#bfarea,#bftime,#landname{
+	display:none;
+}
+
+/* 弹框 */
+.showDiv{
+	width:94%;
+	height:320px;
+	position:fixed;
+	z-index:1;
+	top:35%;
+	left:3%;
+	background:url("../images/bg.jpg");
+	background-size:100% 100%;
+	/* padding:15px 20px; */
+	border-radius:5px;
+	border:1px solid #A1CEE5;
+}
+#showDiv{
+	display:none;
+}
+.showDiv > p{
+	display:inline-block;
+	float:left;
+	width:100%;
+	height:16%;
+	/* border:1px solid red; */
+}
+.showDiv > p > span{
+	display:inline-block;
+	float:left;
+	width:60%;
+	height:100%;
+	padding:4%;
+	font-size:18px;
+	font-weight:normal;
+	color:#ffffff;
+	/* border:1px solid blue; */
+}
+.showDiv > p > a{
+	display:inline-block;
+	width:15%;
+	height:100%;
+	padding:4% 5%;
+	float:right;
+	font-weight:bold;
+	font-size:23px;
+	color:gray;
+	text-decoration:none;
+	/* border:1px solid; */
+}
+#hidiv{
+	display:none;
+}
+.showDiv > form{
+	display:block;
+	float:left;
+	width:100%;
+	height:70%;
+	/* border:1px solid blue; */
+}
+.showDiv > form > ul{
+	width:100%;
+	height:100%;
+	padding-left:3%;
+	list-style:none;
+	/* border:1px solid red; */
+}
+.showDiv > form > ul > li{
+	float:left;
+	width:50%;
+	height:18%;
+	list-style:none;
+	padding:2.5% 1.5%;
+	/* border:1px solid blue; */
+}
+.showDiv > form > ul > li label{
+	display:block;
+	float:left;
+	height:100%;
+	margin-right:1.5%;
+	font-size:15px;
+	color: #ffffff;
+}
+.showDiv > form > ul > li > span{
+	display:inline-block;
+	width:50%;
+	height:100%;
+	font-size:15px;
+	/* border:1px solid; */
+}
+.showDiv > form > ul > li > select{
+	display:inline-block;
+	width:48%;
+	height:100%;
+	float:left;
+}
+.showDiv > form > ul > li > input{
+	float:left;
+	width:50%;
+	height:100%;
+	padding-left:3%;
+}
+.showDiv > form > ul > p{
+	display:block;
+	float:left;
+	width:100%;
+	height:27%;
+	padding:3% 15%;
+}
+.showDiv > form > ul > span{
+	display:inline-block;
+	width:100%;
+	height:18%;
+	float:left;
+	padding:2.5% 1.5%;
+}
+.showDiv > form > ul > span > label{
+	display:block;
+	float:left;
+	height:100%;
+	margin-right:1.5%;
+	font-size:15px;
+	color: #ffffff;
+}
+.showDiv > form > ul > span > input{
+	float:left;
+	width:50%;
+	height:100%;
+	padding-left:3%;
+}
+.showDiv > form > ul > p > button{
+	width:100%;
+	height:100%;
+	font-size:15px;
+	color:#ffffff;
+	background:#D25748;
+}

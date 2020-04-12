@@ -1,0 +1,107 @@
+*{
+	padding:0px;
+	margin:0px auto;
+	box-sizing:border-box;
+}
+.container{
+	width:100%;
+	max-width:414px;
+	height:1800px;
+	/* border:1px solid red; */
+}
+.top{
+	width:100%;
+	height:2.7%;
+	float:left;
+	padding:2% 4%;
+	background:#4B9321;
+}
+.top_left{
+	width:8%;
+	height:100%;
+	float:left;
+	/* background:pink; */
+}
+.top_left a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.top_left a img{
+	width:80%;
+	height:100%;
+}
+.top_cen{
+	width:90%;
+	height:100%;
+	float:left;
+	/* background:yellow; */
+}
+.top_cen h2{
+	width:100%;
+	height:100%;
+	line-height:170%;
+	text-align:center;
+	font-weight:normal;
+	font-size:20px;
+	font-family:"sans-serif";
+	color:#ffffff;
+}
+.context{
+	width:100%;
+	height:93%;
+	float:left;
+	background:#D1ED9B;
+}
+.context > ul{
+	width:100%;
+	height:100%;
+	padding:4% 2%;
+	list-style:none;
+}
+.context > ul > li{
+	width:100%;
+	height:15%;
+	float:left;
+	margin-bottom:3%;
+	border-radius:5%;
+	background:url("../images/b18.jpg");
+	background-size:100% 100%;
+	border:1px solid #666666;
+}
+.context_listdiv{
+	width:100%;
+	height:100%;
+	float:left;
+}
+.context_listdiv > ul{
+	width:100%;
+	height:100%;
+	float:left;
+	list-style:none;
+	padding:3% 2%;
+}
+.context_listdiv > ul > li{
+	float:left;
+	width:50%;
+	height:14%;
+	padding:1.7% 1.3%;
+	/* border:1px solid red; */
+}
+.context_listdiv > ul > p{
+	display:inline-block;
+	width:100%;
+	height:14%;
+	padding:1.7% 1.3%;
+}
+.context_listdiv > ul > li > label,.context_listdiv > ul > p > label{
+	display:inline-block;
+	float:left;
+	font-size:15px;
+	color:#C41A1A;
+}
+.context_listdiv > ul > li > span,.context_listdiv > ul > p > span{
+	display:inline-block;
+	float:left;
+	font-size:15px;
+}

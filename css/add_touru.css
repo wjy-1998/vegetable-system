@@ -1,0 +1,125 @@
+*{
+	padding:0px;
+	margin:0px auto;
+	box-sizing:border-box;
+}
+.container{
+	width:100%;
+	max-width:414px;
+	height:650px;
+	background:url("../images/b11.jpg") no-repeat;
+	background-size:100% 100%;
+	/* border:1px solid red; */
+}
+.top{
+	width:100%;
+	height:7%;
+	float:left;
+	padding:2% 4%;
+	background:#4B9321;
+}
+.top_left{
+	width:8%;
+	height:100%;
+	float:left;
+	/* background:pink; */
+}
+.top_left a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.top_left a img{
+	width:80%;
+	height:100%;
+}
+.top_cen{
+	width:90%;
+	height:100%;
+	float:left;
+	/* background:yellow; */
+}
+.top_cen h2{
+	width:100%;
+	height:100%;
+	line-height:170%;
+	text-align:center;
+	font-weight:normal;
+	font-size:20px;
+	font-family:"sans-serif";
+	color:#ffffff;
+}
+.context{
+	width:100%;
+	height:92%;
+	float:left;
+	/* border:2px solid blue; */
+}
+.context form{
+	display:block;
+	width:100%;
+	height:100%;
+	padding-top:6%;
+}
+.context form ul{
+	width:100%;
+	height:100%;
+	list-style:none;
+}
+.context form ul li{
+	float:left;
+	width:50%;
+	height:9%;
+	padding:3% 2%;
+	/* border:1px solid; */
+}
+.context form ul li label{
+	display:inline-block;
+	float:left;
+	height:100%;
+	line-height:30px;
+	font-size:16px;
+	overflow:hidden;
+	/* border:1px solid; */
+}
+.context form ul li select{
+	display:inline-block;
+	float:left;
+	width:48%;
+	height:100%;
+	font-size:15px;
+}
+.context form ul li input{
+	width:52%;
+	height:100%;
+	float:left;
+	padding-left:4%;
+	border:1px solid;
+}
+.context form ul p{
+	display:inline-block;
+	width:100%;
+	height:8%;
+	padding:2%;
+	font-size:15px;
+	float:left;
+}
+.context form ul p input{
+	width:55%;
+	height:100%;
+	padding-left:3%;
+}
+.context form ul span{
+	display:inline-block;
+	width:100%;
+	height:15%;
+	padding:5% 10%;
+	font-size:15px;
+}
+.context form ul span button{
+	width:100%;
+	height:100%;
+	font-size:18px;
+	color:#000000;
+	background:yellow;
+}

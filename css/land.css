@@ -1,0 +1,69 @@
+*{
+	padding:0px;
+	margin:0px auto;
+	box-sizing:border-box;
+}
+.container{
+	width:100%;
+	max-width:414px;
+	max-height:650px;
+	height:630px;
+	/* max-width:414px; */
+	background:url("../images/land_bg1.jpg") no-repeat;
+	background-size:100% 100%;
+	border:1px solid #ffffff;
+}
+.box{
+	width:77%;
+	height:300px;
+	margin-top:23%;
+	/* border:1px solid green; */
+}
+.box h2{
+	font-size:25px;
+	color:#085D08;
+	font-family:"sans-serif";
+	text-align:center;
+}
+.content{
+	width:100%;
+	height:300px;
+	float:left;
+	padding-top:16%;
+}
+.content form{
+	width:100%;
+	height:100%;
+	padding:8% 6%;
+	border:1px solid #5F7624;
+}
+.content form input{
+	width:100%;
+	height:38px;
+	line-height:38px;
+	margin-bottom:16px;
+	border:1px solid #c6c6c6;
+}
+.content form input[type="text"],.content form input[type="password"]{
+	padding-left:3%;
+}
+.content form input[type="submit"]{
+	height:38px;
+	margin-top:4%;
+	font-size:17px;
+	color:#ffffff;
+	background:green;
+	cursor:pointer;
+}
+.login{
+	display:inline-block;
+	width:22%;
+	height:30px;
+	line-height:30px;
+	float:left;
+	text-align:center;
+	/* text-decoration:none; */
+	font-size:15px;
+	color:#000000;
+	/* border:1px solid; */
+}
